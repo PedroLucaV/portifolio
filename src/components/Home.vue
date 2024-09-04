@@ -4,7 +4,7 @@
 <template>
     <div id="home" class="container">
         <div class="photo">
-            <img src="/logo-blank.webp" alt="">
+            <img src="/pedroLucas.png" alt="">
         </div>
         <div class="hero-text">
             <h1 class="main-text-header">About Me</h1>
