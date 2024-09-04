@@ -8,14 +8,22 @@ import ProjectModel from './ProjectModel.vue';
             <h1>Projects</h1>
         </span>
         <div class="projects">
-            <ProjectModel title="Project 01" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus ligula vel ante gravida consequat. Donec volutpat vel." img="/logo-blank.webp"/>
+            <a href="https://github.com/PedroLucaV/agenda-maker/tree/back-end" target="blank">
+                <ProjectModel title="Agenda Maker" paragraph="Projeto escolar de agendamento de horarios, fiquei responsavel pela criação da API na branch de Back-End com o ExpressJS e MySQL com a ORM Sequelize" img="/agenda_maker.png"/>
+            </a>
+
             <ProjectModel title="Project 02" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus ligula vel ante gravida consequat. Donec volutpat vel." img="/logo-blank.webp"/>
+
             <ProjectModel title="Project 03" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus ligula vel ante gravida consequat. Donec volutpat vel." img="/logo-blank.webp"/>
+
         </div>
     </div>
 </template>
 
 <style scoped>
+    a{
+        text-decoration: none;
+    }
     .project-container{
         background-color: #FF4E45;
         display: flex;
